@@ -1,0 +1,37 @@
+{
+  "name": "rate-my-ride",
+  "version": "1.0.0",
+  "description": "Aplicacion para calificar metodos de transporte",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerarditron/rate-my-ride.git"
+  },
+  "keywords": [
+    "ride",
+    "app",
+    "rating",
+    "typescript",
+    "practice",
+    "test",
+    "javascript",
+    "html"
+  ],
+  "author": "Gerarditron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerarditron/rate-my-ride/issues"
+  },
+  "homepage": "https://github.com/Gerarditron/rate-my-ride#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
